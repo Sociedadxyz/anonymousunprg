@@ -1,0 +1,42 @@
+section	{
+	width: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	font-family: sans-serif;
+}
+.articulo{
+	width: 370px;
+	height: 400px;
+	background-color: #E6E6E6;
+	margin: 10px;
+	overflow: hidden;
+}
+	.container-title h1{
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+		.container-title a{
+			text-decoration: none;
+			color:#000;
+		}
+	
+	.container-description p{
+		text-align: justify;
+		padding: 20px;
+		font-size: 14px;
+		margin-bottom: 5px;	
+	}
+	.container-img img{
+		width: 100%;
+		
+	}
+		.titulo:hover {
+			background-color: rgba(0,0,0,0.9);
+			color:#fff;
+		}

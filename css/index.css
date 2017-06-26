@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+header{
+	background-color:#fff;
+	width: 100%;
+	height: 5.5em;
+	box-shadow: 0px 2px 5px #000;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	position: fixed;
+	z-index: 1;
+}
+header .menu{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;	
+}
+	.menu a{
+		display: block;
+		padding: 25px;
+		text-decoration: none;
+		color:#000;
+		font-family: Calibri;
+		
+
+	}
+		.menu a:hover{
+			background:gray;
+			color:#fff;
+			box-shadow: 0px 4px 0px #000;
+		}
+		.menu a:active{
+			background:#000;
+			box-shadow: 0px 4px 0px #fff;
+		}
+	.logo{
+		width: 100px;
+		height: 100px;
+		border-radius: 100%;
+	}
+	.nombreweb{
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		align-items: center;
+	}
+	.nombreweb h1{
+		font-family: sans-serif;
+	}
+section	{
+	
+	margin-bottom: 50px;
+}
+section .tituloNoticia{
+	text-align:center;
+	font-family: sans-serif;
+}
+section .noticia{
+	width: 75%;
+	height:480px;
+	margin: 10px auto;
+	position: relative;
+}
+	.imagen{
+		width: 100%;
+		height: 480px;
+		overflow: hidden;
+	}
+		.imagen img{
+			width: 100%;
+			height: 100%;
+		}
+	
+	.container-text{
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.5);
+		color:#fff;
+		cursor: pointer;
+	}
+	.container-text:hover{
+		background-color: rgba(0,0,0,0.9);
+	}
+		.container-text p{
+			padding: 26px;
+			
+			font-family:sans-serif;
+			text-align:justify;
+			font-size: 20px;
+		}
+
+footer{
+	width: 100%;
+	height: 200px;
+	max-height: 200px;
+	background: #E6E6E6;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}
+
+	.container-foot {
+		margin:10px;
+		width: 400px;
+		height: 180px;
+		max-height:180px;
+		overflow:hidden;
+	
+	}
+		.container-foot .logo-3{
+
+			width: 128px;
+			height:178px;
+		}
+		.container-foot a{
+			text-decoration:none;
+			color: #000;
+			display: block;
+			padding-top: 50px;
+			padding-left: 150px;
+		}
+		.icon-facebook2{
+			font-size: 100px;
+			text-decoration:none;
+		}
+			.icon-facebook2:hover{
+				color:gray;
+			}
+		.container-foot h2, .container-foot h3{
+			text-align: center;
+			font-family: sans-serif;
+		}
+@media screen and (max-width:780px){
+	section .noticia{
+		width: 100%;
+		
+	}
+}
