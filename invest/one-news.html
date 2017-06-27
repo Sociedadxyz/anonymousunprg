@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnonyMousUnprg</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/news.css">
+	<link rel="stylesheet" type="text/css" href="../fuentes/fonts.css">
+</head>
+<body>
+	<header>
+		<nav class="menu">
+			<a href="../index.html">INICIO</a>
+			<a href="../denuncia.html">DENUNCIAS</a>
+			<a href="../invest.html">INVESTIGACIÓN</a>
+		</nav>
+		<div>
+			<img class="logo" src="../img/anonymous_logo.png">
+		</div>
+		<div class="nombreweb">
+			<h1>AnonyMousUnprg</h1>
+		</div>
+	</header>
+	<script type="text/javascript">
+		for (var i = 0; i <= 6; i++) {
+			document.write("</br>");
+		}
+	</script>	
+	<section class="new-one">
+		<h1>Francis Villena Rodríguez</h1>
+		<article>
+			Fue uno de los rectores más corruptos en toda la historia de la UNPRG, gobernó desde el año 2005-2011, y junto con el ex-alumno German Meledres iniciaron la mafia mas organizada, amenazadora, destructiva que nuestra UNPRG haya tenido. Debido al poder que ejercían lograron golpear, amenazar y amedrentar  a los estudiantes y profesores que no compartían sus actos de corrupción. El único objetivo que tenían estos, era llenarse el bolsillo de dinero a costa de alumnos, para eso necesitaban mantenerse en sus cargos, y lo lograban a través de las elecciones, ideando estrategias que hasta en el presente son usadas como son:
+			<ul>
+				<li>Fiestas para los alumnos, en donde regalaban cajas de cervezas</li>
+				<li>Los profesores regalaban notas, y por consiguiente no reclamar nada.</li>
+				<li>Hacían paralelos, abrían Grupos B y todo tipo de acción administrativa(Algunos se conbraban)</li>
+				<li>A los profesores les ofrecían cargos, viajes, maestrías, doctorados</li>
+			</ul>
+
+			
+		</article>
+	</section>
+	<footer>
+		<div class="container-foot">
+			<img id="logoOne" class="logo-3" src="../img/logo-1.gif">
+		</div>
+		<div class="container-foot">
+			<h2>MENSAJE DE ANONYMOUS</h2>
+			<h3>Somos legion</h3> 
+			<h3>No olvidamos</h3> 
+			<h3>No perdonamos</h3> 
+			<h3>Esperenos!</h3>
+			<h2>-Anonymous</h2>
+		
+		</div>
+		<div class="container-foot">
+			<a href="#"><span class="icon-facebook2"></span></a>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		//Variabless
+		var $logoOne=document.getElementById("logoOne"); 
+
+		//Funciones
+		function entrada(){
+			$logoOne.src="../img/logo-2.gif";
+		}	
+		function salida(){
+			$logoOne.src="../img/logo-1.gif";
+		}
+
+		//Eventos
+		$logoOne.addEventListener("mouseover",entrada);
+		$logoOne.addEventListener("mouseout",salida)
+
+	</script>
+</body>
+</html>
